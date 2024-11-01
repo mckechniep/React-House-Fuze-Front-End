@@ -1,0 +1,75 @@
+/* Parent container */
+#sigin-parent-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../Images/homelogin.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 95vh;
+}
+
+/* Signin form container */
+#signin-container {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 320px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+/* Header styling */
+.header_login {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #4e54c8;
+}
+
+/* Message styling */
+.message_login {
+  font-size: 1rem;
+  color: #8f94fb;
+  margin-bottom: 1rem;
+}
+
+/* Input field styling */
+#signin-container input[type="text"],
+#signin-container input[type="password"] {
+  width: 100%;
+  padding: 0.7rem;
+  background-color: #fff;
+  /* White background */
+  border: 2px solid #000;
+  /* Thick black border */
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+  outline: none;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+#signin-container input[type="text"]:focus,
+#signin-container input[type="password"]:focus {
+  border-color: #4e54c8;
+  box-shadow: 0 0 4px rgba(78, 84, 200, 0.5);
+}
+
+/* Button styling */
+#signin-container button {
+  background-color: #003161;
+  color: #fdfdfd;
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#signin-container button:hover {
+  background-color: #8f94fb;
+}
